@@ -1,0 +1,61 @@
+[
+    {
+        "url": "http://enoisconteudo.com.br",
+        "caption": {
+            "HTMLElementTag": "img",
+            "HTMLElementAttrs": {
+                "src": "/static/img/logo-enois-peq.png",
+                "alt": "ENÓIS Conteúdo",
+                "class": "float-right"
+            }
+        },
+        "show": ["logos"]
+    },
+    {
+        "url": "http://escoladejornalismo.org",
+        "caption": {
+            "HTMLElementTag": "img",
+            "HTMLElementAttrs": {
+                "src": "/static/img/logo-ej-peq.png",
+                "alt": "Escola de Jornalismo",
+                "class": "float-left"
+            }
+        },
+        "show": ["logos"]
+    },
+    {
+        "url": "#inicio",
+        "caption": "Início",
+        "show": ["scroll", "mobile"]
+    },
+    {
+        "url": "#video",
+        "caption": "Vídeo",
+        "show": ["scroll", "mobile"]
+    },
+    {
+        "url": "#nopassinho",
+        "caption": "Passinho do Jovem",
+        "show": ["scroll", "mobile"]
+    },
+    {
+        "url": "#estilos",
+        "caption": "Estilos",
+        "show": ["scroll", "mobile"]
+    },
+    {
+        "url": "#quemevc",
+        "caption": "Quem é Você",
+        "show": ["scroll", "mobile"]
+    },
+    {
+        "url": "#parcelas",
+        "caption": "Processo",
+        "show": ["scroll", "mobile"]
+    },
+    {
+        "url": "#quemsomos",
+        "caption": "Quem Somos",
+        "show": ["scroll", "mobile"]
+    }
+]

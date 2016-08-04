@@ -1,0 +1,3 @@
+#Os estilos da quebrada#
+
+**"Não espere nada do centro, se a periferia está morta, pois o que era velho no norte, se torna novo no sul"** já cantavam Chico Science e Fred 04 nos anos 90. Criada em meio à violência e pobreza, a juventude periférica usa da criatividade pra lançar tendência na moda, na música, nas gírias e nas artes. Muitos dos gêneros mais influentes da cultura pop - como o punk e o rap - nasceram na quebrada. Aqui mapeamos os estilos mais comuns das periferias de São Paulo. Do chavoso ao metaleiro, do swagger ao good vibes: todos eles, por mais diferentes que sejam, se encontram em determinados aspectos, sejam visuais, musicais, comportamentais ou históricos, resultando numa grande rede os une.

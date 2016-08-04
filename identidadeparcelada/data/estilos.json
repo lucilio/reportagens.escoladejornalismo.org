@@ -1,0 +1,303 @@
+{
+    "metaleiro": {
+        "title": "Metaleiro",
+        "description": "Surgido a partir do Rock and Roll no final da década de 60, o Heavy Metal se popularizou através de bandas como Black Sabbath, que tinham como principais marcas o som pesado, obscuro e agressivo. Os longos cabelos e roupas e acessórios pretos, predominantes nos adeptos do estilo (chamados de headbangers), refletem essas características.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Camiseta Iron Maiden Run To The Hilss",
+            "photo": " metaleiro/camiseta.jpg",
+            "price": "99,00",
+            "store": "Mr. Dylan",
+            "link": ""
+        },
+        {
+            "title": "Calçado",
+            "description": "Tênis Converse All Star CT As Monochrome",
+            "photo": "metaleiro/calcado.jpg",
+            "price": "139,90",
+            "store": "Netshoes",
+            "link": ""
+
+        },
+        {
+            "title": "Acessório",
+            "description": "Patch Black Sabbath Logo ",
+            "photo": "metaleiro/acessorio.jpg",
+            "price": "4,90",
+            "store": "Heavy Metal Rock",
+            "link": ""
+        }
+        ]
+    },
+    "punk": {
+        "title": "Punk",
+        "description": "Movimento cultural surgido nos Estados Unidos na década de 70, que, além das críticas ao sistema capitalista, pregava a independência e a individualidade, em oposição ao movimento hippie, que havia crescido na década anterior. O estilo é caracterizado pelo corte miocano, coletes, coturnos e acessórios com spikes, demonstrando a agressividade do movimento. No Brasil, o movimento punk começou nos anos 80 nas regiões periféricas do ABC e em bairros como Vila Mazzei, Vila Carolina e Capão Redondo, de onde surgiram bandas como Cólera, Inocentes e Garotos Podres.",
+        "products": [
+        {
+            "title": "Calçado",
+            "description": "Bota Klin Coturno",
+            "store": "Zattini",
+            "price": "159,00",
+            "photo": "punk/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Pulseira Rock Spike Rebite",
+            "store": "Madstar",
+            "price": "21,99",
+            "photo": "punk/acessorio.jpg"
+        },
+        {
+            "title": "Colete",
+            "description": "Colete Joy com Gola Peluci",
+            "store": "Americanas",
+            "price": "155,00",
+            "photo": "punk/colete.jpg"
+        }
+        ]
+    },
+    "screamo": {
+        "title": "Screamo",
+        "description": "Derivado do Emo, o Screamo surgiu entre a década de 90 e 00, tendo como influência as características franjas e os olhos pintados. Existem, porém, elementos mais contemporâneos, como piercings, alargadores e muitas tatuagens espalhadas pelo corpo, mesclando sentimentos de melancolia e agressividade. Na cidade, são comuns os festivais de bandas independentes, como o Sampa Music Festival, realizado na Penha.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Camiseta Raglan Chess Clothing Basic",
+            "store": "Kanui",
+            "price": "42,90",
+            "photo": "screamo/camiseta.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Tênis Converse All Star CT As Monochrome",
+            "store": "Netshoes",
+            "price": "139,90",
+            "photo": "screamo/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Alargador 14mm",
+            "store": "Alargadores.com",
+            "price": "18,90",
+            "photo": "screamo/acessorio.jpg"
+        }
+        ]
+    },
+    "skatista": {
+        "title": "Skatista",
+        "description": "Surgido no final da década de 50, na Califórnia (EUA), o skate se tornou um verdadeiro estilo de vida entre seus praticantes, tanto na música, quanto na maneira de se vestir. Os tênis são elaborados para otimizar a prática do esporte e as roupas contém estampas e elementos que fazem referência tanto à arte de rua quanto à elementos da praia, característicos da cidade de origem, da mesma maneira como acontece aqui. O estilo é comum tanto na capital quanto no litoral. Nas quebradas ainda é comum ver o uso de toucas de lã, independente do clima.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Camiseta Thrasher Flame X/X",
+            "store": "Ultra Skate",
+            "price": "89,90",
+            "photo": "skatista/camiseta.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Tênis Vans Atwood",
+            "store": "Kanui",
+            "price": "185,90",
+            "photo": "skatista/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Camiseta Thrasher Flame X/X",
+            "store": "Ultra Skate",
+            "price": "89,90",
+            "photo": "skatista/acessorio.jpg"
+        }
+        ]
+    },
+    "rasta": {
+        "title": "Rasta",
+        "description": "Surgido no fim da década de 60, o reggae se tornou símbolo da cultura jamaicana e trouxe consigo uma força cultural que perdura até hoje. Com os dreads característicos, os adeptos do estilo costumam usar nas roupas e acessórios as cores que representam a religião rastafari (verde, vermelho, amarelo e preto). Em diversos bairros da periferia, como Capão Redondo e Vila Carmosina, acontecem os eventos popularmente conhecidos como Dub/SoundSystem, onde há uma verdadeira mistura entre os ritmos jamaicanos, como o dub, ragga, reggae e dancehall.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Camiseta indiana Bob Marley, Futebol, Leão",
+            "store": "Kanui",
+            "price": "49,90",
+            "photo": "rasta/camiseta.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Pulseira/Tornozeleira Reggae Amizade",
+            "store": "Elo7",
+            "price": "15,00",
+            "photo": "rasta/acessorio.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Touca Ganja",
+            "store": "Cidade Verde",
+            "price": "72,90",
+            "photo": "rasta/touca.jpg"
+        }
+        ]
+    },
+    "good-vibes": {
+        "title": "Good-Vibes",
+        "description": "Com forte influência de religiões indianas e africanas, os good vibes usam roupas leves e coloridas, lembrando a cultura hippie dos anos 60, com os toques cultura brasileira e da MPB. A simplicidade está relacionada ao desapego material que as religiões pregam, como meio de elevar a alma. Peças e acessórios feitos por artistas independentes e muitas vezes veganas (sem matéria-prima de origem animal).",
+        "products": [
+        {
+            "title": "Saia",
+            "description": "Saia longa estampada Ateen roxa",
+            "store": "",
+            "price": "",
+            "photo": "good-vibes/saia.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Helena Slipper",
+            "store": "Insecta Shoes",
+            "price": "269,00",
+            "photo": "good-vibes/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Pulseira cordão com pedrinhas coloridas",
+            "store": "Bijoulux",
+            "price": "19,90",
+            "photo": "good-vibes/acessorio.jpg"
+        }
+        ]
+    },
+    "tombamento": {
+        "title": "Tombamento",
+        "description": "Estilo com influências do afrofuturismo e do afropunk, marcado pela junção de peças esportivas de grandes marcas com elementos da cultura afro. Caracterizado pela grande quantidade de cores, o estilo busca o empoderamento do visual negro utilizando acessórios e maquiagens pouco exploradas na cultura ocidental até então, como as tranças, os brincos grandes e batons em cores como azul e amarelo.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Regata Tirefoil",
+            "store": "Adidas Originals",
+            "price": "99,99",
+            "photo": "tombamento/camiseta.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Tênis Nike Air Max 90 Ultra Essential",
+            "store": "Authentic Feet",
+            "price": "479,99",
+            "photo": "tombamento/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Brinco Sheran Triângulo",
+            "store": "Xongani",
+            "price": "20,00",
+            "photo": "tombamento/acessorio.jpg"
+        }
+        ]
+    },
+    "swag": {
+        "title": "Swag",
+        "description": "Swag é um termo em inglês que significa “estiloso, maneiro, legal”. Diretamente influenciado pela cultura pop/rap americana, tem atualmente como principais referências os artistas do Costa Gold e o rapper Wiz Khalifa. Meninos e meninas geralmente usam as mesmas peças de roupa, que passam por camisetas e regatas grandes e estampadas, bonés de aba reta e a calça saruel, que é a mais característica do estilo.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Camiseta A Rua É Nóiz",
+            "store": "Lab Fantasma",
+            "price": "49,90",
+            "photo": "swag/camiseta.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Tênis Nike Air Force",
+            "store": "ArtWalk",
+            "price": "380,00",
+            "photo": "swag/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Boné Snapback A Rua É Nóiz",
+            "store": "Lab Fantasma",
+            "price": "54,90",
+            "photo": "swag/acessorio.jpg"
+        }
+        ]
+    },
+    "evangelico": {
+        "title": "Evangélico",
+        "description": "Seguindo o código de vestimenta da religião, os adeptos costumam usar trajes sociais completos. As cores são discretas e, entre as mulheres, as saias e os vestidos são longos e soltos, sem se ajustar ao corpo e cobrindo toda a perna.",
+        "products": [
+        {
+            "title": "Camisa",
+            "description": "Camisa social azul claro quadriculada",
+            "store": "C&A",
+            "price": "59,99",
+            "photo": "evangelico/camisa.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Sapato sociall Broken Rule",
+            "store": "Daifiti",
+            "price": "99,99",
+            "photo": "evangelico/calcado.jpg"
+        },
+        {
+            "title": "Acessório",
+            "description": "Gravata preta estampada",
+            "store": "Colombo",
+            "price": "59,95",
+            "photo": "evangelico/acessorio.jpg"
+        }
+        ]
+    },
+    "hip-hop": {
+        "title": "Hip Hop",
+        "description": "Movimento cultural composto por quatro elementos (DJ, MC, B-Boy e Grafiteiro). Bem amplo, o visual contempla desde pessoas que não adotam um estilo até mais recentemente os afrofuturistas. Independente da vertente, o boné e os sneakers são elementos fundamentais. Camisetas com referências à cultura afro e à artistas da cena.",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Camiseta A Rua É Nóiz",
+            "store": "Lab Fantasma",
+            "price": "49,90",
+            "photo": "hip-hop/camiseta.jpg"
+        },
+        {
+            "title": "Calçado",
+            "description": "Tênis Nike Air Force",
+            "store": "ArtWalk",
+            "price": "380,00",
+            "photo": "hip-hop/calcado.jpg"
+        },
+        {
+            "title": "Acessorio",
+            "description": "Boné Snapback A Rua É Nóiz",
+            "store": "Lab Fantasma",
+            "price": "54,90",
+            "photo": "hip-hop/acessorio.png"
+        }
+        ]
+    },
+    "chavoso": {
+        "title": "Chavoso",
+        "description": "",
+        "products": [
+        {
+            "title": "Camiseta",
+            "description": "Polo Lacoste Super Light",
+            "store": "Netshoes",
+            "price": "289,00",
+            "photo": "chavoso/camiseta.jpg"
+        },
+        {
+            "title": "Calcado",
+            "description": "Tênis Mizuno Wave Propechy",
+            "store": "Centauro",
+            "price": "1.299,00",
+            "photo": "chavoso/calcado.jpg"
+        },
+        {
+            "title": "Acessorio",
+            "description": "oné Lacoste Sport Plyester",
+            "store": "Dafiti",
+            "price": "144,90",
+            "photo": "chavoso/acessorio.jpg"
+        }
+        ]
+    }
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 40 40.000001"
+   id="svg3816"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="roupa.svg">
+  <defs
+     id="defs3818" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="13.3"
+     inkscape:cx="20"
+     inkscape:cy="20"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3821">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-136.21429,-730.83397)">
+    <g
+       id="g3863"
+       transform="matrix(0.07912088,0,0,0.07912088,138.21429,732.83401)">
+      <path
+         id="path3825"
+         d="M 357.642,32.638 290.828,16.742 c 0,0 -18.622,32.784 -63.328,32.784 -44.706,0 -63.328,-32.784 -63.328,-32.784 L 97.358,32.638 0,119.916 l 48.555,75.179 48.803,-22.87 0,266.032 260.284,0 0,-266.032 48.803,22.87 L 455,119.916 357.642,32.638 Z"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g3827" />
+      <g
+         id="g3829" />
+      <g
+         id="g3831" />
+      <g
+         id="g3833" />
+      <g
+         id="g3835" />
+      <g
+         id="g3837" />
+      <g
+         id="g3839" />
+      <g
+         id="g3841" />
+      <g
+         id="g3843" />
+      <g
+         id="g3845" />
+      <g
+         id="g3847" />
+      <g
+         id="g3849" />
+      <g
+         id="g3851" />
+      <g
+         id="g3853" />
+      <g
+         id="g3855" />
+    </g>
+  </g>
+</svg>

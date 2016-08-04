@@ -1,0 +1,209 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" version="1.1"
+    viewBox="0 0 210 297"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+    <defs>
+        <!-- Aqui vai o CSS para que não precisemos de um arquivo em separado -->
+        <style type="text/css">
+            <![CDATA[
+            text {
+                font-size: 5px;
+                alignment-baseline: middle;
+            }
+            g[id$="-button"] {
+                stroke-width: 0.5px;
+            }
+            g[id$="-button"] rect{
+                fill: #F6DD37;
+                stroke: #FFFFFF;
+            }
+            g[id$="-button"]:hover rect {
+                fill: #FFFF94;
+                pointer-events: all;
+            }
+
+            *[id$=-connector] {
+                stroke: #FFFFFF;
+                stroke-width: 1px;
+                stroke-dasharray: 5px, 2.5px;
+                strok-linecap: round;
+                fill: none;
+            }
+            #legenda use + text {
+                font-family: Roboto;
+                text-transform: uppercase;
+            }
+            #musica-icone circle {
+                fill: #39699B;
+            }
+            #roupa-icone circle {
+                fill: #FF5600;
+            }
+            #role-icone circle {
+                fill: #EF569B;
+            }
+            #ideologia-icone circle {
+                fill: #F6DD37;
+            }
+            #espiritualidade-icone circle {
+                fill: #FFFFFF;
+            }
+
+            ]]>
+        </style>
+        <!--
+        elementos dentro deste <DEFS> (ou qualquer outro contêiner não renderizado) não são renderizados também
+        os elementos abaixo serão inseridos na página com o uso de <USE href="#[id do elemento no <DEFS>]">
+        as posições x e y, aqui, são todas zeradas (ou com posições relativas a um outro elemento zerado)
+        para simplificar o reposicionamento posteriormente.
+        -->
+        <g id="musica-icone">
+            <circle cx="0" cy="0" r="5" />
+            <image xlink:href="icones/musica.svg" x="-2.5" y="-2.5" width="5" height="5"/>
+        </g>
+        <g id="roupa-icone">
+            <circle cx="0" cy="0" r="5" />
+            <image xlink:href="icones/roupa.svg" x="-2.5" y="-2.5" width="5" height="5"/>
+        </g>
+        <g id="role-icone">
+            <circle cx="0" cy="0" r="5" />
+            <image xlink:href="icones/role.svg" x="-2.5" y="-2.5" width="5" height="5"/>
+        </g>
+        <g id="ideologia-icone" >
+            <circle cx="0" cy="0" r="5" />
+            <image xlink:href="icones/ideologia.svg" x="-2.5" y="-2.5" width="5" height="5"/>
+        </g>
+        <g id="espiritualidade-icone" >
+            <circle cx="0" cy="0" r="5" />
+            <image xlink:href="icones/espiritualidade.svg" x="-2.5" y="-2.5" width="5" height="5"/>
+        </g>
+        <!--
+        a legenda poderia ser colocada direto em seu lugar mas caso quiséssemos mudá-la de lugar
+        precisariamos alterar coordenadas de elemento por elemento. Com <use> definindo o
+        seu local de renderização, reposicionamos a legenda inteira com apenas duas coordenadas
+        -->
+        <g id="legenda">
+            <use xlink:href="#musica-icone" transform="translate( 0 0 )" />
+            <text x="7">Música</text>
+            <use xlink:href="#roupa-icone" transform="translate( 33 0 )" />
+            <text x="40">Roupa</text>
+            <use xlink:href="#role-icone" transform="translate( 63 0 )" />
+            <text x="70" >Rolê</text>
+            <use xlink:href="#ideologia-icone" transform="translate( 89 0 )" />
+            <text x="96">Ideologia</text>
+            <use xlink:href="#espiritualidade-icone" transform="translate( 128 0 )" />
+            <text x="135">Espiritualidade</text>
+        </g>
+    </defs>
+
+    <!-- legenda: -->
+    <use xlink:href="#legenda" transform="translate( 22.5 20 )"/>
+    <!-- ...legenda -->
+
+    <!-- conectores: -->
+    <line id="metaleiro-punk-connector" x1="35" y1="55" x2="110" y2="65"/>
+    <use x="65" y="59" xlink:href="#musica-icone"/>
+    <use x="80" y="61" xlink:href="#roupa-icone"/>
+    <line id="punk-screamo-connector" x1="110" y1="65" x2="185" y2="55"/>
+    <use x="147.5" y="60" xlink:href="#musica-icone"/>
+    <line id="punk-skatista-connector" x1="110" y1="65" x2="40" y2="120"/>
+    <use x="86.7" y="83.3" xlink:href="#role-icone"/>
+    <use x="75" y="92.5" xlink:href="#roupa-icone"/>
+    <use x="63.3" y="101.7" xlink:href="#musica-icone"/>
+    <line id="punk-rasta-connector" x1="110" y1="65" x2="110" y2="135"/>
+    <use x="110" y="100" xlink:href="#musica-icone"/>
+    <line id="rasta-skatista-connector" x1="110" y1="135" x2="35" y2="115"/>
+    <use x="85" y="128.3" xlink:href="#role-icone"/>
+    <use x="72.5" y="125" xlink:href="#roupa-icone"/>
+    <use x="60" y="121.7" xlink:href="#musica-icone"/>
+    <line id="rasta-tombadora-connector" x1="110" y1="135" x2="35" y2="175"/>
+    <use x="80" y="151" xlink:href="#roupa-icone"/>
+    <use x="65" y="159" xlink:href="#ideologia-icone"/>
+    <line id="rasta-swag-connector" x1="110" y1="135" x2="110" y2="195"/>
+    <use x="110" y="159" xlink:href="#role-icone"/>
+    <use x="110" y="171" xlink:href="#roupa-icone"/>
+    <line id="rasta-evangelico-connector" x1="110" y1="135" x2="185" y2="175"/>
+    <use x="147.5" y="155" xlink:href="#espiritualidade-icone"/>
+    <line id="rasta-goodvibes-connector" x1="110" y1="135" x2="185" y2="115"/>
+    <use x="140" y="127" xlink:href="#roupa-icone"/>
+    <use x="155" y="123" xlink:href="#espiritualidade-icone"/>
+    <line id="tombadora-swag-connector" x1="35" y1="175" x2="110" y2="195"/>
+    <use x="60" y="181.7" xlink:href="#musica-icone"/>
+    <use x="72.5" y="185" xlink:href="#roupa-icone"/>
+    <use x="85" y="188.3" xlink:href="#role-icone"/>
+    <line id="tombadora-hiphop-connector" x1="35" y1="175" x2="75" y2="255"/>
+    <use x="48.3" y="201.7" xlink:href="#musica-icone"/>
+    <use x="55" y="215" xlink:href="#roupa-icone"/>
+    <use x="61.7" y="228.3" xlink:href="#ideologia-icone"/>
+    <line id="goodvibes-evangelico-connector" x1="185" y1="115" x2="185" y2="175"/>
+    <use x="185" y="145" xlink:href="#espiritualidade-icone"/>
+    <line id="hiphop-chavoso-connector" x1="75" y1="255" x2="135" y2="255"/>
+    <use x="99" y="255" xlink:href="#musica-icone"/>
+    <use x="111" y="255" xlink:href="#roupa-icone"/>
+    <line id="hiphop-swag-connector" x1="75" y1="255" x2="110" y2="195"/>
+    <use x="89" y="231" xlink:href="#musica-icone"/>
+    <use x="96" y="219" xlink:href="#roupa-icone"/>
+
+    <!-- ...conectores: -->
+    
+    <!-- ...tipo de conexão -->
+
+    <!-- botoes: -->
+    <g id="metaleiro-button" data-open="metaleiro-modal">
+        <rect x="20" y="40" rx="1" width="30" height="30" />
+        <image xlink:href="icones/metaleiro.svg" x="25" y="45" width="20" height="20"/>
+    </g>
+    <g id="punk-button">
+        <rect x="95" y="50" rx="1" width="30" height="30" />
+        <image xlink:href="icones/punk.svg" x="100" y="55" width="20" height="20"/>
+    </g>
+    <g id="screamo-button">
+		<rect x="170" y="40" rx="1" width="30" height="30" />
+		<image xlink:href="icones/screamo.svg" x="175" y="45" width="20" height="20" />
+	</g>
+    <g id="skatista-button">
+		<rect x="20" y="100" rx="1" width="30" height="30" />
+		<image xlink:href="icones/skatista.svg" x="25" y="105" width="20" height="20" />
+	</g>
+    <g id="rasta-button">
+		<rect x="95" y="120" rx="1" width="30" height="30" />
+		<image xlink:href="icones/rasta.svg" x="100" y="125" width="20" height="20" />
+	</g>
+    <g id="goodvibes-button">
+		<rect x="170" y="100" rx="1" width="30" height="30" />
+		<image xlink:href="icones/goodvibes.svg" x="175" y="105" width="20" height="20" />
+	</g>
+    <g id="tombadora-button">
+		<rect x="20" y="160" rx="1" width="30" height="30" />
+		<image xlink:href="icones/tombadora.svg" x="25" y="165" width="20" height="20" />
+	</g>
+    <g id="swag-button">
+		<rect x="95" y="180" rx="1" width="30" height="30" />
+		<image xlink:href="icones/swag.svg" x="100" y="185" width="20" height="20" />
+	</g>
+    <g id="evangelico-button">
+		<rect x="170" y="160" rx="1" width="30" height="30" />
+		<image xlink:href="icones/evangelico.svg" x="175" y="165" width="20" height="20" />
+	</g>
+    <g id="hiphop-button">
+		<rect x="60" y="240" rx="1" width="30" height="30" />
+		<image xlink:href="icones/hiphop.svg" x="65" y="245" width="20" height="20" />
+	</g>
+    <g id="chavoso-button">
+		<rect x="120" y="240" rx="1" width="30" height="30" />
+		<image xlink:href="icones/chavoso.svg" x="125" y="245" width="20" height="20" />
+	</g>
+    <!-- ...botoes -->
+   
+    <!-- ícones -->
+    <!--os valores para transform foram obtidos copiando as localizações dos botões-->
+    <!--
+        <use...>
+            xlink:href é a referência ao elemento modelo (id)
+            e transform é uma função que move o elemento duplicado
+            para coordenadas específicas
+    -->
+</svg>

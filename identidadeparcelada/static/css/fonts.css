@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Boulder';
+    src: url('fonts/boulder_bold_0-webfont.woff2') format('woff2'),
+         url('fonts/boulder_bold_0-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Filbert Brush Caps';
+    src: url('fonts/filbertbrushcapsdemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Filbert Brush';
+    src: url('fonts/filbertbrushdemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-blackitalic-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: italic, oblique;
+
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-black_0-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-bolditalic_0-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic, oblique;
+
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-italic_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-lightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic, oblique;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/lato-regular_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

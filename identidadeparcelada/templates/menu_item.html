@@ -1,0 +1,14 @@
+{% if menu_item.url %}<a href="{{ menu_item.url }}">{% endif %}
+{% if menu_item.caption.HTMLElementTag %}
+  <{{ menu_item.caption.HTMLElementTag }}
+    {% for attribute, value in menu_item.caption.HTMLElementAttrs.items() %}
+    {{attribute}}="{{ value }}" 
+    {% endfor %}
+    >
+{% else %}
+    {{ menu_item.caption }}
+{% endif %}
+{% if menu_item.caption.HTMLElementTag %}
+  </{{ menu_item.caption.HTMLElementTag }}>
+{% endif %}
+{% if menu_item.url %}</a>{% endif %}

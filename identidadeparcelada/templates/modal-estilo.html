@@ -1,0 +1,26 @@
+      <aside id="{{modal_id}}-modal" class="reveal modal row" data-reveal>
+        <div class="small-12 columns">
+          <h3>{{modal.title}}</h3>
+          <p>{{modal.description}}</p>
+          <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="small-12 columns">
+          <h3>#LOOKDODIA</h3>
+          <div class="row collapse">
+        {% for product in modal.products %}
+            <div class="small-12 medium-4 columns product">
+              <figure class="row bg-white full-width">
+                <img class="float-center" src="static/img/looks/{{ product.photo }}">
+              </figure>
+              <div class="row column">
+                <h6>{{ product.title }}:</h6>
+                <p>{{ product.description }}</p>
+                <p>( {{ product.store }} - {{ product.price }} )</p>
+              </div>
+            </div>
+        {% endfor %}
+          </div>
+        </div>
+      </aside>

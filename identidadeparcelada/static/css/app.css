@@ -1,0 +1,309 @@
+body {
+    font-family: "Lato";
+}
+blockquote {
+    font-weight: bold;
+    border: none;
+}
+blockquote p:after,
+blockquote p:before {
+    content: "\"";
+    display: inline;
+}
+aside.reveal {
+    width: 90vw;
+    max-width: 800px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000;
+}
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Lato";
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+h1 {
+    font-weight: 900;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.top-bar ul,
+.main-title {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1em;
+}
+.main-title {
+    font-family: "Boulder";
+    font-size: 5em;
+}
+.top-bar ul a {
+    color: inherit;
+}
+.top-bar ul a:hover {
+    text-decoration: underline;
+}
+.top-bar ul a.active {
+    color: #EF569B;
+}
+.top-bar .main-title {
+    font-size: 2.5em;
+    padding: 0.35em 0;
+}
+.menu li {
+    height: 5em;
+}
+
+/* formatação de texto */
+.paragraph-center p,
+.title-center h1, .title-center h2, .title-center h3, 
+.title-center h4, .title-center h5, .title-center h6,
+.quotes-center blockquote {
+    text-align: center;
+}
+
+/* cores (texto) */
+
+.green, .text-green, .green *, .text-green *,
+.title-green h1, .title-green h2, .title-green h3,
+.title-green h4, .title-green h5, .title-green h6,
+.quotes-green blockquote {
+    color: #6EA68C;
+}
+.yellow, .text-yellow, .yellow *, .text-yellow *,
+.title-yellow h1, .title-yellow h2, .title-yellow h3,
+.title-yellow h4, .title-yellow h5, .title-yellow h6,
+.quotes-yellow blockquote {
+    color: #F6DD37;
+}
+.blue, .text-blue, .blue *, .text-blue *,
+.title-blue h1, .title-blue h2, .title-blue h3,
+.title-blue h4, .title-blue h5, .title-blue h6,
+.quotes-blue blockquote {
+    color: #39699B;
+}
+.pink, .text-pink, .pink *, .text-pink *,
+.title-pink h1, .title-pink h2, .title-pink h3,
+.title-pink h4, .title-pink h5, .title-pink h6,
+.quotes-pink blockquote {
+    color: #EF569B;
+}
+.white, .text-white, .white *, .text-white *,
+.title-white h1, .title-white h2, .title-white h3,
+.title-white h4, .title-white h5, .title-white h6,
+.quotes-white blockquote {
+    color: #FFFFFF;
+}
+.orange, .text-orange, .orange *, .text-orange *,
+.title-orange h1, .title-orange h2, .title-orange h3,
+.title-orange h4, .title-orange h5, .title-orange h6,
+.quotes-orange blockquote {
+    color: #FF5600;
+}
+.cream, .text-cream, .cream *, .text-cream *,
+.title-cream h1, .title-cream h2, .title-cream h3,
+.title-cream h4, .title-cream h5, .title-cream h6,
+.quotes-cream blockquote {
+    color: #F9FFA6;
+}
+.smoked, .text-smoked, .smoked *, .text-smoked *,
+.title-smoked h1, .title-smoked h2, .title-smoked h3,
+.title-smoked h4, .title-smoked h5, .title-smoked h6,
+.quotes-smoked blockquote {
+    color: rgba( 0, 0, 0, 0.75 );
+}
+.transparent, .text-transparent, .transparent *, .text-transparent *,
+.title-transparent h1, .title-transparent h2, .title-transparent h3,
+.title-transparent h4, .title-transparent h5, .title-transparent h6,
+.quotes-transparent blockquote {
+    color: transparent;
+}
+
+/* cores de fundo */
+.bg-green, .bg-green-on-hover:hover, .bg-green-on-focus:focus, .bg-green-on-visited:visited {
+    background-color: #6EA68C;
+}
+.bg-yellow, .bg-yellow-on-hover:hover, .bg-yellow-on-focus:focus, .bg-yellow-on-visited:visited {
+    background-color: #F6DD37;
+    color: #000000;
+}
+.bg-blue, .bg-blue-on-hover:hover, .bg-blue-on-focus:focus, .bg-blue-on-visited:visited {
+    background-color: #39699B;
+}
+.bg-pink, .bg-pink-on-hover:hover, .bg-pink-on-focus:focus, .bg-pink-on-visited:visited {
+    background-color: #EF569B;
+}
+.bg-white, .bg-white-on-hover:hover, .bg-white-on-focus:focus, .bg-white-on-visited:visited {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.bg-orange, .bg-orange-on-hover:hover, .bg-orange-on-focus:focus, .bg-orange-on-visited:visited {
+    background-color: #FF5600;
+}
+.bg-cream, .bg-cream-on-hover:hover, .bg-cream-on-focus:focus, .bg-cream-on-visited:visited {
+    background-color: #F9FFA6;
+    color: #000000;
+}
+.bg-smoked, .bg-smoked-on-hover:hover, .bg-smoked-on-focus:focus, .bg-smoked-on-visited:visited {
+    background-color: rgba( 0, 0, 0, 0.75 );
+}
+.bg-transparent, .bg-transparent-on-hover:hover, .bg-transparent-on-focus:focus, .bg-transparent-on-visited:visited {
+    background-color: transparent;
+}
+.button.circle {
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0.75em 0;
+}
+.button.circle i {
+    font-size: 2em;
+    line-height: 1em;
+}
+.close-button:hover {
+    color: #FFFFFF;
+}
+.full-width {
+    width: 100%;
+}
+.product p {
+    font-size: 0.6em;
+    margin-bottom: 0;
+}
+.product figure {
+    background-color: #FFFFFF;
+}
+.product img {
+    height: 180px;
+}
+.modal {
+    padding: 2em 5em;
+}
+.modal h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.reveal-overlay {
+    background-color: rgba( 0, 0, 0, 0.8 );
+}
+#inicio {
+    display: table;
+    position: relative; /*faz deste elemento a referência para qualquer position: absolute que ele contenha*/
+    padding-top: 0; 
+    width: 100%;
+}
+#inicio .columns {
+    display: table-row;
+    text-align: center;
+}
+#inicio .main-title {
+    display: table-caption;
+    position: absolute;
+    margin: 0 30%;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+}
+#inicio figure {
+    padding-top: 3em;
+    display: table-cell;
+}
+#inicio figure img {
+    vertical-align: bottom;
+    max-width: 45%;
+}
+#inicio img {
+    margin-bottom: 0;
+}
+#estilos-infografico {
+    width: 100%;
+}
+#apresentacao figure {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+#quemsomos li {
+    list-style: none;
+}
+@media screen and ( min-width: 640px ) {
+    .background-layer {
+        position: relative;
+        width: 100%;
+        padding-bottom: 20%;
+    }
+    .background-layer .overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .overlay.middle {
+        margin-top: -50%;
+        margin-bottom: 50%;
+    }
+    .background-fixed {
+        background-attachment: fixed;
+        background-position: center bottom;
+    }
+}
+.fullHDsized {
+    height: 54vw; /*razão 100vw x 16 / 9 use with compatible image*/
+    background-size: 100% auto;
+}
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+.parallax-effect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax-effect.none {
+    height: 100%;
+    width: 100%;
+    transform: translateZ(0);
+}
+.parallax-effect.background-HD {
+    position: relative;
+    height: 54vw;
+    width: 100%;
+}
+.parallax-effect.slower {
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-1px) scale(2);
+}
+.intervalo {
+    height: 55vw; /* 0.5625 é a razão altura/largura de uma tela HD (9:16) 100vw é a largura da tela do dispositivo */
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.footer-logos {
+    vertical-align: middle;
+    text-align: center;
+}
+.footer-logos > img {
+    
+}
+.copyright {
+    font-size: 0.5em;
+}
+.copyright, .copyright a {
+    color: #444444;
+}
