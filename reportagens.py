@@ -12,7 +12,13 @@ sites_home = '.'
 
 def setup_sites():
     sites = []
-    sites_roots = [ entry.name for entry in scandir( app_root + path.sep + sites_home ) if entry.is_dir() and entry.name not in [ app_venv, sites_home ] and not entry.name.startswith('__')  ]
+    sites_roots = [
+        entry.name for entry in scandir( app_root + path.sep + sites_home )
+        if entry.is_dir() and
+        entry.name not in [ app_venv, sites_home ]
+        and not entry.name.startswith('__')
+        and not entry.name.startswith('.')
+    ]
     for site_path in sites_roots:
         sites.append( load_site( site_path ) )
 
