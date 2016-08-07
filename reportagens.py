@@ -29,10 +29,10 @@ def load_site( site_name ):
     blueprint = Blueprint( site_name, __name__, static_folder = site_root + '/static', template_folder = site_root + '/templates' )
     for entry in scandir( site_root + path.sep + data_folder ):
         if entry.name.endswith('.json'):
-            layout_data.update( { entry.name.replace( '.json', '' ): json.load( open( entry.path, 'r' ) ) } )
+            layout_data.update( { entry.name.replace( '.json', '' ): json.load( open( entry.path, encoding="utf-8", mode='r' ) ) } )
     for entry in scandir( site_root + path.sep + content_folder ):
         if entry.name.endswith('.md'):
-            layout_content.update( { entry.name.replace( '.md', '' ): Markup( markdown( open( entry.path, 'r' ).read() ) ) } )
+            layout_content.update( { entry.name.replace( '.md', '' ): Markup( markdown( open( entry.path, encoding="utf-8", mode='r' ).read() ) ) } )
     @blueprint.route( '/' + site_name + '/', defaults={'layout': 'layout.html'} )
     @blueprint.route( '/' + site_name + '/<layout>' )
     def load_page( layout ):
