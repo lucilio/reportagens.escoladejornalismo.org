@@ -1,9 +1,9 @@
 [uwsgi]
 
-app_name = reportagens
-app_domain = reportagens
+app_name = reportagens_app
+app_folder = /srv/http/reportagens
 
-chdir = /srv/http/%(app_domain)
+chdir = %(app_folder)
 venv = %(app_name)-venv
 plugin = python
 

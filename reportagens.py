@@ -1,6 +1,6 @@
-from flask import Flask, Blueprint, Markup, render_template, config, url_for
+from flask import Flask, Blueprint, Markup, render_template, config, url_for, request
 from os import path, scandir
-import json, mistune
+import json, mistune, pprint
 
 markdown = mistune.Markdown()
 app_name = 'reportagens'
@@ -33,8 +33,8 @@ def load_site( site_name ):
     for entry in scandir( site_root + path.sep + content_folder ):
         if entry.name.endswith('.md'):
             layout_content.update( { entry.name.replace( '.md', '' ): Markup( markdown( open( entry.path, 'r' ).read() ) ) } )
-    @blueprint.route( '/' + site_name, defaults={'layout': 'layout.html'} )
-    @blueprint.route( '/' + site_name + '<layout>' )
+    @blueprint.route( '/' + site_name + '/', defaults={'layout': 'layout.html'} )
+    @blueprint.route( '/' + site_name + '/<layout>' )
     def load_page( layout ):
         return render_template( layout, data=layout_data, content=layout_content )
     app.register_blueprint( blueprint )
