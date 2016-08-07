@@ -4,7 +4,7 @@
         "caption": {
             "HTMLElementTag": "img",
             "HTMLElementAttrs": {
-                "src": "/static/img/logo-enois-peq.png",
+                "src": "static/img/logo-enois-peq.png",
                 "alt": "ENÓIS Conteúdo",
                 "class": "float-right"
             }
@@ -16,7 +16,7 @@
         "caption": {
             "HTMLElementTag": "img",
             "HTMLElementAttrs": {
-                "src": "/static/img/logo-ej-peq.png",
+                "src": "static/img/logo-ej-peq.png",
                 "alt": "Escola de Jornalismo",
                 "class": "float-left"
             }

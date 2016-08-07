@@ -32,6 +32,9 @@ img {
     margin-top: 1em;
     margin-bottom: 1em;
 }
+.menu a img {
+    margin-top: 0;
+}
 .top-bar ul,
 .main-title {
     background-color: transparent;
