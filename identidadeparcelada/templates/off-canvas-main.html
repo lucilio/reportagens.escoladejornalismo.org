@@ -1,0 +1,161 @@
+<div data-sticky-container>
+  <nav class="top-bar bg-yellow sticky show-for-medium" data-sticky data-margin-top="0">
+    <ul id="menu" class="expanded menu menu-centered">
+      <ul class="menu logos">
+        {% for menu_item in data.menu if "logos" in menu_item.show %}
+        <li>{% include "menu_item.html" %}</li>
+        {% endfor %}
+      </ul>
+      <ul class="menu" data-magellan data-bar-offset="50">
+        {% for menu_item in data.menu if "scroll" in menu_item.show %}
+        <li>{% include "menu_item.html" %}</li>
+        {% endfor %}
+      </ul>
+    </ul>
+  </nav>
+</div>
+<nav class="top-bar bg-yellow hide-for-medium">
+  <ul id="menu-mobile" class="menu row">
+    <li class="small-3 column">
+      <button class="button mobile bg-green bg-green-on-focus bg-green-on-hover white circle" data-toggle="mobile-menu-off-canvas">
+        <i class="fi-list"></i>
+      </button>
+    </li>
+    <li class="small-9 column"><h1 class="main-title pink text-center">{{data.site_info.title}}</h1></li>
+  </ul>
+</nav>
+
+<div style="display:none;">
+  <dd>
+    <dt>metadados</dt>
+    <dd rnews:dateCreated>2016-07-5</dd>
+  </dd>
+</div>
+
+<div id="inicio" class="row expanded bg-pink yellow full-height" data-magellan-target="inicio">
+  <div class="small-12 medium-8 columns medium-centered full-height">
+    <figure class="full-height">
+      <img class="" src="static/img/nai.png" alt="Nairóbi: Jovem negra de cabelos longos, camiseta, brincos e maquiagem"/>
+      <img src="static/img/denis.png" alt="Denis: Jovem negro de boné de time americano, jaqueta e aparelho ortodôntico"/>
+    </figure>
+    <h1 rnews:headline class="main-title show-for-medium text-center">{{data.site_info.title}}</h1>
+  </div>
+</div>
+<div id="apresentacao" class="row expanded bg-green white">
+  <div class="small-12 medium-8 columns medium-centered">
+    <div class="row">
+      <div class="small-12 medium-4 columns medium-push-8" data-sticky-container>
+        <figure class="sticky text-center" data-sticky data-options="stickyOn:medium;anchor:apresentacao;">
+          <img src="static/img/trio.png">
+        </figure>
+      </div>
+      <div class="small-12 medium-8 columns medium-pull-4">
+        {{ content.apresentacao }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="video" class="row bg-pink text-white expanded" data-magellan-target="video" rel="rnews:associatedMedia">
+
+  <div class="small-12 medium-8 columns medium-centered">
+    {{ content.video }}
+  </div>
+
+</section>
+
+<section id="nopassinho" class="row expanded bg-yellow title-pink" data-magellan-target="nopassinho">
+
+  <div class="small-12 medium-8 columns medium-centered">
+    {{ content.passinho }}
+
+    <div class="row background-layer">
+      <div id="foto-passinho-1" class="small-12 medium-9 medium-centered columns">
+          <img src="static/img/passinho.png">
+      </div>
+      <div class="row overlay">
+        <div class="small-12 columns text-center medium-text-right">
+          <img src="static/img/rosquinhas/sexo.png">
+        </div>
+        <div class="small-12 columns text-center medium-text-left">
+            <img src="static/img/rosquinhas/cor.png">
+        </div>
+        <div class="small-12 columns text-center medium-text-right">
+          <img src="static/img/rosquinhas/renda.png">
+        </div>
+      </div>
+    </div>
+    <h2>Quanto Ganham?</h2>
+    <div class="row">
+      <div class="small-6 columns text-center">
+        <img src="static/img/rosquinhas/renda_valores_jovens.png">
+      </div>
+      <div class="small-6 columns text-center">
+        <img src="static/img/rosquinhas/renda_valores_todos.png">
+      </div>
+    </div>
+    <h4>Poder de consumo dos jovens brasileiros?</h4>
+    <div class="row">
+      <div class="small-6 medium-4 columns text-center">
+        <img src="static/img/rosquinhas/consumo_d.png">
+      </div>
+      <div class="small-6 medium-4 columns text-center">
+        <img src="static/img/rosquinhas/consumo_c.png">
+      </div>
+      <div class="small-12 medium-4 columns text-center">
+        <img src="static/img/rosquinhas/consumo_b.png">
+      </div>
+    </div>
+    <h2>Com o que Gastam?</h2>
+    <div class="row">
+      <div class="small-6 medium-4 columns text-center">
+        <img src="static/img/rosquinhas/consumo_sp.png">
+      </div>
+      <div class="small-6 medium-4 columns text-center">
+        <img src="static/img/rosquinhas/consumo_se.png">
+      </div>
+      <div class="small-12 medium-4 columns text-center">
+        <img src="static/img/rosquinhas/consumo_br.png">
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="estilos" class="row expanded bg-green title-yellow text-white" data-magellan-target="estilos">
+
+  <!-- modais: -->
+  {% for modal_id, modal in data.modais.items() %}
+    {% include "modal-estilo.html" %}
+  {% endfor %}
+  <!-- ...modais -->
+
+  <div class="small-12 medium-8 columns medium-centered">
+    {{ content.estilos }}
+    <object name="estilos-infografico" data="static/info.svg"></object>
+  </div>
+
+</section>
+
+<section id="quemevc" class="row expanded bg-blue title-yellow text-white" data-magellan-target="quemevc">
+  <div class="small-12 medium-8 medium-centered columns">
+    {{ content.quiz }}
+  </div>
+</section>
+
+<section class="row expanded column background-fixed fullHDsized bg-pink" style="background-image: url( 'static/img/intervalo-bg.jpg' );" ></section>
+
+<section id="parcelas" class="row expanded bg-cream title-pink" data-magellan-target="parcelas">
+  <div class="small-12 medium-8 medium-centered columns">
+    {{ content.parcelas }}
+  </div>
+</section>
+
+<section id="quemsomos" class="row expanded bg-white title-pink" data-magellan-target="quemsomos">
+  <div class="small-12 medium-8 medium-centered columns">
+    {{ content.quemsomos }}
+  </div>
+</section>
+
+{% include "rodape.html" %}

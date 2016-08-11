@@ -1,0 +1,14 @@
+  <nav data-sticky-container>
+    <ul id="mobile-menu" class="expanded menu pink sticky" data-margin-top="0;" data-top-anchor="150" data-sticky-on="small">
+      <ul class="vertical menu" data-magellan data-bar-offset="50">
+        {% for menu_item in data.menu if "scroll" in menu_item.show %}
+        <li>{% include "menu_item.html" %}</li>
+        {% endfor %}
+      </ul>
+      <ul class="vertical menu logos">
+        {% for menu_item in data.menu if "logos" in menu_item.show %}
+        <li>{% include "menu_item.html" %}</li>
+        {% endfor %}
+      </ul>
+    </ul>
+  </nav>

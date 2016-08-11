@@ -51,6 +51,7 @@ nav.top-bar.hide-for-medium {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1em;
+    vertical-align: middle;
 }
 .main-title {
     font-family: "Boulder";
@@ -71,8 +72,14 @@ nav.top-bar.hide-for-medium {
     padding-top: 0.6em;
     vertical-align: middle;
 }
-.menu li {
+.menu.not(.mobile-menu) li {
     height: 5em;
+}
+#mobile-menu {
+    text-transform: uppercase;
+}
+#mobile-menu-off-canvas {
+    height: 100%;
 }
 
 /* formatação de texto */
@@ -190,6 +197,13 @@ nav.top-bar.hide-for-medium {
 }
 .full-height {
     height: 85vh;
+}
+.full-height.no-top-bar {
+    padding-top: 15vh;
+}
+.total-height {
+    height: 100%;
+    width: 100%;
 }
 .product p {
     font-size: 0.6em;
